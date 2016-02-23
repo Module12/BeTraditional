@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobiletesting.betraditional.WhatsTrendy"
+    android:background="@drawable/whatstrendy">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Men--Polo Tees"
+        android:id="@+id/textView6"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_marginRight="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Women --Evening Gowns"
+        android:id="@+id/textView7"
+        android:layout_marginTop="58dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Kids-- Hoodies and Jeans"
+        android:id="@+id/textView8"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/textView7"
+        android:layout_toStartOf="@+id/textView7"
+        android:layout_marginTop="94dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/button18"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+</RelativeLayout>
+

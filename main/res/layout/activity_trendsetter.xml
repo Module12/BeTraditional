@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mobiletesting.betraditional.trendsetter"
+    android:background="#fbff09">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/trend_launcher"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover"
+        android:id="@+id/button5"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button6"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Best In"
+        android:id="@+id/button6"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What&apos;s Trendy"
+        android:id="@+id/button7"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D TRY"
+        android:id="@+id/button8"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#fbff09"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/r"
+        android:layout_alignTop="@+id/button8"
+        android:layout_toStartOf="@+id/button8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/m"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button8"
+        android:layout_marginBottom="10dp" />
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button5"
+        android:background="#fcfcfc" />
+
+</RelativeLayout>
+
