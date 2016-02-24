@@ -1,0 +1,21 @@
+<activity android:name=".WelcomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Homepage">
+            <intent-filter>
+                <action android:name="mobiletesting.betraditional.Homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".trendsetter">
+            <intent-filter>
+                <action android:name="mobiletesting.betraditional.trendsetter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
