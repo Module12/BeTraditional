@@ -5,10 +5,10 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="BeTraditional"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomePage">
+        <activity android:name=".Welcomepage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,42 +29,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".camera">
-            <intent-filter>
-                <action android:name="mobiletesting.betraditional.camera" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Categories">
-            <intent-filter>
-                <action android:name="mobiletesting.betraditional.Categories" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Discover">
-            <intent-filter>
-                <action android:name="mobiletesting.betraditional.Discover" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Newarrivals">
-            <intent-filter>
-                <action android:name="mobiletesting.betraditional.Newarrivals" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".TheBestIn">
-            <intent-filter>
-                <action android:name="mobiletesting.betraditional.TheBestIn" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".WhatsTrendy"></activity>
     </application>
 
 </manifest>
